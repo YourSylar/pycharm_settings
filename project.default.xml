@@ -1,0 +1,37 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent">
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+      </component>
+      <component name="RunDashboard">
+        <option name="ruleStates">
+          <list>
+            <RuleState>
+              <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+            </RuleState>
+            <RuleState>
+              <option name="name" value="StatusDashboardGroupingRule" />
+            </RuleState>
+          </list>
+        </option>
+      </component>
+      <component name="RunManager">
+        <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+          <option name="PORT" value="30333" />
+          <option name="HOST" value="LOCAL_ATTACH" />
+          <PathMappingSettings>
+            <option name="pathMappings">
+              <list />
+            </option>
+          </PathMappingSettings>
+          <option name="REDIRECT_OUTPUT" value="true" />
+          <option name="SUSPEND_AFTER_CONNECT" value="true" />
+          <method v="2" />
+        </configuration>
+      </component>
+    </defaultProject>
+  </component>
+</application>
