@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="FILE_MASK" value="empListFilter.py" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -28,5 +28,6 @@
     <mask>core.py</mask>
     <mask>*.sql</mask>
     <mask>*.py</mask>
+    <mask>empListFilter.py</mask>
   </component>
 </application>
