@@ -11,6 +11,7 @@
         <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="true" predefined="${name}" />
         <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="true" predefined="$(name)" />
         <parameter-pattern value="!(\w+)" in-scripts="true" />
+        <parameter-pattern value="\$[0-9]+" in-scripts="true" />
       </parameter-patterns>
     </text-mode>
     <csv-formats>
