@@ -1,11 +1,12 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -22,7 +23,6 @@
     <mask>Card.js</mask>
     <mask>employeesInfo.py</mask>
     <mask>*.orx</mask>
-    <mask>*.tmpl</mask>
     <mask>const.py</mask>
     <mask>core.py</mask>
     <mask>empListFilter.py</mask>
@@ -31,5 +31,6 @@
     <mask>*.sql</mask>
     <mask>*.py</mask>
     <mask>*.ts</mask>
+    <mask>*.tmpl</mask>
   </component>
 </application>
