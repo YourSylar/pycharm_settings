@@ -25,12 +25,12 @@
     <mask>*.orx</mask>
     <mask>const.py</mask>
     <mask>core.py</mask>
-    <mask>empListFilter.py</mask>
     <mask>holiday_list.sql</mask>
     <mask>*.js</mask>
     <mask>*.tmpl</mask>
     <mask>*.ts</mask>
     <mask>*.py</mask>
     <mask>*.sql</mask>
+    <mask>empListFilter.py</mask>
   </component>
 </application>
