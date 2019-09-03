@@ -5,6 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -29,8 +30,8 @@
     <mask>empListFilter.py</mask>
     <mask>*.sql</mask>
     <mask>*.orx</mask>
-    <mask>*.py</mask>
     <mask>personal_events.py</mask>
     <mask>API.py</mask>
+    <mask>*.py</mask>
   </component>
 </application>
