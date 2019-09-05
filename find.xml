@@ -32,6 +32,7 @@
     <mask>*.orx</mask>
     <mask>personal_events.py</mask>
     <mask>API.py</mask>
+    <mask>fias_views.py</mask>
     <mask>*.py</mask>
   </component>
 </application>
