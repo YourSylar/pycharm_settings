@@ -5,7 +5,7 @@
       <synchronize>true</synchronize>
       <schema-control>AUTOMATIC</schema-control>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://pre-test-inside-pg3.unix.tensor.ru:5432/test-inside.tensor.ru</jdbc-url>
+      <jdbc-url>jdbc:postgresql://pre-test-inside-pg3.unix.tensor.ru:6432/test-inside.tensor.ru</jdbc-url>
       <driver-properties>
         <property name="currentSchema" value="_00000003" />
       </driver-properties>
