@@ -22,7 +22,6 @@
     <mask>const.py</mask>
     <mask>core.py</mask>
     <mask>holiday_list.sql</mask>
-    <mask>*.tmpl</mask>
     <mask>*.ts</mask>
     <mask>empListFilter.py</mask>
     <mask>*.sql</mask>
@@ -35,5 +34,6 @@
     <mask>*.orx</mask>
     <mask>*.py</mask>
     <mask>*.js</mask>
+    <mask>*.tmpl</mask>
   </component>
 </application>
