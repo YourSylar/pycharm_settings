@@ -33,7 +33,7 @@
     <mask>load_from_file.py</mask>
     <mask>*.orx</mask>
     <mask>*.py</mask>
-    <mask>*.js</mask>
     <mask>*.tmpl</mask>
+    <mask>*.js</mask>
   </component>
 </application>
