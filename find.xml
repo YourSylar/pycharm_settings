@@ -5,6 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.sql" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -24,7 +25,6 @@
     <mask>holiday_list.sql</mask>
     <mask>*.ts</mask>
     <mask>empListFilter.py</mask>
-    <mask>*.sql</mask>
     <mask>personal_events.py</mask>
     <mask>API.py</mask>
     <mask>fias_views.py</mask>
@@ -35,5 +35,6 @@
     <mask>*.py</mask>
     <mask>*.tmpl</mask>
     <mask>*.js</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
