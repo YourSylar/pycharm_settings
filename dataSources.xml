@@ -58,5 +58,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-inside-db.unix.tensor.ru:5432/inside</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="postgres@test-services-db7.unix.tensor.ru" uuid="e0d8ce54-2309-4d36-ac33-3986c4e4554b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://test-services-db7.unix.tensor.ru:6432/postgres</jdbc-url>
+    </data-source>
   </component>
 </application>
