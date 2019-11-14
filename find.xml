@@ -7,6 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="empListFilter.py" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -24,7 +25,6 @@
     <mask>core.py</mask>
     <mask>holiday_list.sql</mask>
     <mask>*.ts</mask>
-    <mask>empListFilter.py</mask>
     <mask>personal_events.py</mask>
     <mask>API.py</mask>
     <mask>fias_views.py</mask>
@@ -37,5 +37,6 @@
     <mask>*.orx</mask>
     <mask>*.js</mask>
     <mask>*.py</mask>
+    <mask>empListFilter.py</mask>
   </component>
 </application>
