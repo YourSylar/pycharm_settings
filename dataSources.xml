@@ -64,5 +64,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-services-db7.unix.tensor.ru:6432/postgres</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="video-ai@test-video-ai.unix.tensor.ru" uuid="bcc6e628-7950-41e4-8c24-038d7bb8341f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://test-video-ai.unix.tensor.ru:5432/video-ai</jdbc-url>
+    </data-source>
   </component>
 </application>
