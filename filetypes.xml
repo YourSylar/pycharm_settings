@@ -8,9 +8,10 @@
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <mapping ext="pgsql" type="SQL" />
+      <mapping ext="orx" type="XML" />
+      <mapping ext="wml" type="XML" />
       <mapping ext="tmpl" type="XML" />
       <mapping ext="cnv" type="XML" />
-      <mapping ext="orx" type="XML" />
       <removed_mapping ext="tmpl" approved="true" type="DTD" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
