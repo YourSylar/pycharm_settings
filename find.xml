@@ -7,6 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.sql" />
     <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.as</mask>
@@ -29,7 +30,6 @@
     <mask>common.py</mask>
     <mask>load_from_file.py</mask>
     <mask>*.tmpl</mask>
-    <mask>*.sql</mask>
     <mask>*.css</mask>
     <mask>*.orx</mask>
     <mask>*.js</mask>
@@ -37,5 +37,6 @@
     <mask>departs_sums.sql</mask>
     <mask>*.wml</mask>
     <mask>*.py</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
