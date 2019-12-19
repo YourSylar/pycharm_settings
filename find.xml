@@ -5,6 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
@@ -30,10 +31,10 @@
     <mask>empListFilter.py</mask>
     <mask>departs_sums.sql</mask>
     <mask>*.wml</mask>
-    <mask>*.py</mask>
     <mask>*.sql</mask>
     <mask>*.js</mask>
     <mask>Main.tmpl</mask>
     <mask>holiday_list.sql</mask>
+    <mask>*.py</mask>
   </component>
 </application>
