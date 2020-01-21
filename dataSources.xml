@@ -64,5 +64,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-services-db7.unix.tensor.ru:6432/postgres</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="online-ext2@pre-test-osr-db.unix.tensor.ru" uuid="c69d7346-441c-4cef-ae36-d00e83c83720">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pre-test-osr-db.unix.tensor.ru:5432/online-ext2</jdbc-url>
+    </data-source>
   </component>
 </application>
