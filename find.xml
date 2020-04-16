@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
@@ -17,7 +18,6 @@
     <mask>employeesInfo.py</mask>
     <mask>const.py</mask>
     <mask>core.py</mask>
-    <mask>*.ts</mask>
     <mask>personal_events.py</mask>
     <mask>API.py</mask>
     <mask>fias_views.py</mask>
@@ -35,5 +35,6 @@
     <mask>*.sql</mask>
     <mask>*.py</mask>
     <mask>*.wml</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
