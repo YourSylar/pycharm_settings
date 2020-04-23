@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.java</mask>
+    <option name="FILE_MASK" value="diagram*" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>py</mask>
@@ -35,5 +35,6 @@
     <mask>*.py</mask>
     <mask>*.wml</mask>
     <mask>*.ts</mask>
+    <mask>diagram*</mask>
   </component>
 </application>
