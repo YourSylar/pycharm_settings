@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.less" />
+    <option name="FILE_MASK" value="*.sql" />
     <mask>*.mxml</mask>
     <mask>py</mask>
     <mask>__init__.py</mask>
@@ -34,7 +34,7 @@
     <mask>*.wml</mask>
     <mask>*.ts</mask>
     <mask>diagram*</mask>
-    <mask>*.sql</mask>
     <mask>*.less</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
