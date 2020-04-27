@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.as</mask>
+    <option name="FILE_MASK" value="*.less" />
     <mask>*.mxml</mask>
     <mask>py</mask>
     <mask>__init__.py</mask>
@@ -30,10 +30,11 @@
     <mask>Main.tmpl</mask>
     <mask>holiday_list.sql</mask>
     <mask>*.orx</mask>
-    <mask>*.sql</mask>
     <mask>*.py</mask>
     <mask>*.wml</mask>
     <mask>*.ts</mask>
     <mask>diagram*</mask>
+    <mask>*.sql</mask>
+    <mask>*.less</mask>
   </component>
 </application>
