@@ -40,9 +40,10 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-inside-pg.unix.tensor.ru:5432/test-inside.tensor.ru</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="ext@fix-osr-db4.unix.tensor.ru" uuid="290b070e-668c-4f33-9464-30952bf29750">
+    <data-source source="LOCAL" name="ext@fix-osr-db4.unix.tensor.ru" read-only="true" uuid="290b070e-668c-4f33-9464-30952bf29750">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-osr-db4.unix.tensor.ru:5432/ext</jdbc-url>
     </data-source>
