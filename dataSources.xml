@@ -71,5 +71,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-osr-db.unix.tensor.ru:5432/online-ext2</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="SERVICE_USER ext_28.10.16@pre-test-osr-db.unix.tensor.ru [2]" read-only="true" group="PRE-TEST" uuid="763afd00-af13-4ed8-a1d1-31ec3f5840bd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pre-test-osr-db.unix.tensor.ru:5432/ext_28.10.16</jdbc-url>
+    </data-source>
   </component>
 </application>
