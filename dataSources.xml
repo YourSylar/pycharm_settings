@@ -51,7 +51,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://fix-inside-db1.unix.tensor.ru:5432/inside</jdbc-url>
+      <jdbc-url>jdbc:postgresql://fix-inside-db1.unix.tensor.ru:6432/inside</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="inside@test-inside-db.unix.tensor.ru" group="TEST" uuid="abc7283c-e1c2-4831-bf6a-44a3ba1b73e3">
       <driver-ref>postgresql</driver-ref>
