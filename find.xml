@@ -30,12 +30,12 @@
     <mask>*.js</mask>
     <mask>Main.tmpl</mask>
     <mask>holiday_list.sql</mask>
-    <mask>*.orx</mask>
     <mask>*.wml</mask>
     <mask>*.ts</mask>
     <mask>diagram*</mask>
     <mask>*.less</mask>
     <mask>*.py</mask>
     <mask>*.sql</mask>
+    <mask>*.orx</mask>
   </component>
 </application>
