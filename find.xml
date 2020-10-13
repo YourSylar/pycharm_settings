@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>py</mask>
     <mask>__init__.py</mask>
     <mask>browserlist.py</mask>
@@ -31,7 +32,7 @@
     <mask>*.less</mask>
     <mask>*.sql</mask>
     <mask>*.navx</mask>
-    <mask>*.py</mask>
     <mask>*.orx</mask>
+    <mask>*.py</mask>
   </component>
 </application>
