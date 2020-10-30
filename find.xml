@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>py</mask>
+    <option name="FILE_MASK" value="*.cnv" />
     <mask>__init__.py</mask>
     <mask>browserlist.py</mask>
     <mask>TaxSystemPy.py</mask>
@@ -33,5 +33,6 @@
     <mask>*.navx</mask>
     <mask>*.orx</mask>
     <mask>*.py</mask>
+    <mask>*.cnv</mask>
   </component>
 </application>
