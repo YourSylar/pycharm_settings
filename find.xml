@@ -31,7 +31,7 @@
     <mask>*.cnv</mask>
     <mask>*.py</mask>
     <mask>*.navx</mask>
-    <mask>*.sql</mask>
     <mask>*.dicx</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
