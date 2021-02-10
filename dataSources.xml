@@ -137,5 +137,40 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:5432/ext1-2-8</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="ext1-2-1@test-ext1-db1.unix.tensor.ru" group="TEST" uuid="c0d82f36-8e4b-428a-80c6-5ccf4afaa171">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:5432/ext1-2-1</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="planned-events@fix-planned-events-service-db1.unix.tensor.ru" group="FIX" uuid="1419f848-ab88-4bdc-a96b-9c96c6b5c687">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://fix-planned-events-service-db1.unix.tensor.ru:5432/planned-events</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="u139-00@osr-u139-db1-1.unix.tensor.ru" group="WORK" uuid="9ad0a790-ebe7-472e-9370-aec11c3e3965">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://osr-u139-db1-1.unix.tensor.ru:5432/u139-00</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="ext1-2-4@test-osr-db14.unix.tensor.ru [3]" group="TEST" uuid="1e63a186-1e30-4930-a2fa-90bfff5133a1">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://test-osr-db14.unix.tensor.ru:5432/ext1-2-4</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="u037-09@osr-u037-db1-1.unix.tensor.ru" group="WORK" uuid="a14354e1-733a-4a0c-9847-40ee41494a05">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://osr-u037-db1-1.unix.tensor.ru:5432/u037-09</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
