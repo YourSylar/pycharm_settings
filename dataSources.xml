@@ -10,7 +10,7 @@
         <property name="currentSchema" value="_00000003" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="ext1-2-8@test-osr-db23.unix.tensor.ru" group="TEST" uuid="6f2a1a0d-ba32-4031-b873-dd70117e3e1b">
+    <data-source source="LOCAL" name="PERS_ZP / КОДОВЫЙ" group="TEST" uuid="6f2a1a0d-ba32-4031-b873-dd70117e3e1b">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
