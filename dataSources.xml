@@ -200,5 +200,19 @@
       <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:5432/ext1-2-1</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="ext1-2-8@test-osr-db23.unix.tensor.ru" uuid="67d416cf-0419-4944-9658-a15dd7374abb">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:5432/ext1-2-8</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="u080-19@osr-u080-db2-1.unix.tensor.ru" group="WORK" uuid="5ab67385-d205-422e-a5e6-aa35b87f7ddc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://osr-u080-db2-1.unix.tensor.ru:5432/u080-19</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
