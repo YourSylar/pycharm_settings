@@ -209,7 +209,6 @@
     </data-source>
     <data-source source="LOCAL" name="u080-19@osr-u080-db2-1.unix.tensor.ru" group="WORK" uuid="5ab67385-d205-422e-a5e6-aa35b87f7ddc">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://osr-u080-db2-1.unix.tensor.ru:5432/u080-19</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
