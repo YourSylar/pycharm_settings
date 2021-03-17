@@ -10,10 +10,8 @@
         <property name="currentSchema" value="_00000003" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="PERS_ZP / КОДОВЫЙ" read-only="true" group="TEST" uuid="6f2a1a0d-ba32-4031-b873-dd70117e3e1b">
+    <data-source source="LOCAL" name="PERS_ZP / КОДОВЫЙ" read-only="true" check-outdated="false" single-connection="true" group="TEST" uuid="6f2a1a0d-ba32-4031-b873-dd70117e3e1b">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <schema-control>FORBID</schema-control>
       <rewrite-bounds>false</rewrite-bounds>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:6432/ext1-2-8</jdbc-url>
