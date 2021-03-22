@@ -123,7 +123,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://fix-osr-ext1-db2.unix.tensor.ru:5432/ext</jdbc-url>
+      <jdbc-url>jdbc:postgresql://fix-osr-ext1-db2.unix.tensor.ru:6432/ext</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="pattern@pre-test-demo-db.unix.tensor.ru" group="PRE-TEST" uuid="83500a21-7066-454f-9ec3-a6546a615872">
       <driver-ref>postgresql</driver-ref>
