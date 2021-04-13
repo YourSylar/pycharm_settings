@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.navx" />
     <mask>browserlist.py</mask>
     <mask>TaxSystemPy.py</mask>
     <mask>exp_rep_operations.py</mask>
@@ -28,10 +29,10 @@
     <mask>*.less</mask>
     <mask>*.orx</mask>
     <mask>*.cnv</mask>
-    <mask>*.navx</mask>
     <mask>*.dicx</mask>
     <mask>*.ts</mask>
     <mask>*.py</mask>
     <mask>*.sql</mask>
+    <mask>*.navx</mask>
   </component>
 </application>
