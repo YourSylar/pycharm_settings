@@ -38,7 +38,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://test-inside-pg.unix.tensor.ru:5432/test-inside.tensor.ru</jdbc-url>
+      <jdbc-url>jdbc:postgresql://test-inside-pg.unix.tensor.ru:6432/test-inside.tensor.ru</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="ext@fix-osr-db4.unix.tensor.ru" read-only="true" group="FIX" uuid="290b070e-668c-4f33-9464-30952bf29750">
       <driver-ref>postgresql</driver-ref>
