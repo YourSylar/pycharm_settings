@@ -31,7 +31,7 @@
     <mask>*.ts</mask>
     <mask>*.navx</mask>
     <mask>*.pagex</mask>
-    <mask>*.sql</mask>
     <mask>*.py</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
