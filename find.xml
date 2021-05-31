@@ -25,7 +25,6 @@
     <mask>*.wml</mask>
     <mask>diagram*</mask>
     <mask>*.less</mask>
-    <mask>*.orx</mask>
     <mask>*.cnv</mask>
     <mask>*.dicx</mask>
     <mask>*.ts</mask>
@@ -33,5 +32,6 @@
     <mask>*.pagex</mask>
     <mask>*.py</mask>
     <mask>*.sql</mask>
+    <mask>*.orx</mask>
   </component>
 </application>
