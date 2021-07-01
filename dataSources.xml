@@ -325,5 +325,12 @@
       <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:5432/ext1-2-8</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="accounting-schemes@pre-test-services-db.unix.tensor.ru" group="PRE-TEST" uuid="3c6f8a38-68df-45cc-9209-e73d3cef2dcb">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pre-test-services-db.unix.tensor.ru:6432/accounting-schemes</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
