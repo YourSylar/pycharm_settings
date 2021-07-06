@@ -339,5 +339,12 @@
       <jdbc-url>jdbc:postgresql://osr-u109-db1-1.unix.tensor.ru:5432/u109-13</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="u091-05@osr-u091-db1-1.unix.tensor.ru" group="WORK" uuid="d2dd76d7-5007-445a-bdf0-b703a12c96bb">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://osr-u091-db1-1.unix.tensor.ru:5432/u091-05</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
