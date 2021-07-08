@@ -346,5 +346,12 @@
       <jdbc-url>jdbc:postgresql://osr-u091-db1-1.unix.tensor.ru:5432/u091-05</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="autotest-ext@test-osr-db35.unix.tensor.ru" group="TEST" uuid="d3b82830-728b-4865-9efa-84dc8043ce59">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://test-osr-db35.unix.tensor.ru:6432/autotest-ext</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
