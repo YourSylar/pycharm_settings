@@ -367,5 +367,12 @@
       <jdbc-url>jdbc:postgresql://osr-u139-db1-1.unix.tensor.ru:5432/u139-06</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="demo10@pre-test-demo-db.unix.tensor.ru" group="PRE-TEST" uuid="5158dfe6-1c7e-4b00-b905-e87083e9aad9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pre-test-demo-db.unix.tensor.ru:6432/demo10</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
