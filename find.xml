@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>TaxSystemPy.py</mask>
     <mask>exp_rep_operations.py</mask>
     <mask>Card.js</mask>
@@ -32,8 +33,8 @@
     <mask>*.navx</mask>
     <mask>*.sql</mask>
     <mask>*.dicx</mask>
-    <mask>*.py</mask>
     <mask>*.orx</mask>
     <mask>*.pagex</mask>
+    <mask>*.py</mask>
   </component>
 </application>
