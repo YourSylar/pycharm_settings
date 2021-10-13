@@ -416,5 +416,19 @@
       <jdbc-url>jdbc:postgresql://fix-extreg-db2.unix.tensor.ru:6432/ext-registration-2</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="u063-01@osr-u063-db2-1.unix.tensor.ru" group="WORK" uuid="7066cff6-cc45-4f7f-b443-31d1bbcfd143">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://osr-u063-db2-1.unix.tensor.ru:5432/u063-01</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="u173-04@osr-u173-db1-1.unix.tensor.ru" group="WORK" uuid="977d187d-2d74-4396-bb34-ddee92fa1722">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://osr-u173-db1-1.unix.tensor.ru:5432/u173-04</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
