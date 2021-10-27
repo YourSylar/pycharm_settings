@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.orx" />
     <mask>exp_rep_operations.py</mask>
     <mask>Card.js</mask>
     <mask>employeesInfo.py</mask>
@@ -31,7 +32,7 @@
     <mask>*.dicx</mask>
     <mask>*.pagex</mask>
     <mask>*.py</mask>
-    <mask>*.orx</mask>
     <mask>*.uax</mask>
+    <mask>*.orx</mask>
   </component>
 </application>
