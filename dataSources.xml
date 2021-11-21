@@ -437,5 +437,19 @@
       <jdbc-url>jdbc:postgresql://osr-u122-db1-1.unix.tensor.ru:5432/u122-05</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="demo2-2@fix-osr-demo-db2.unix.tensor.ru" uuid="0941a4e4-8be4-4ada-9885-5be70acb2919">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://fix-osr-demo-db2.unix.tensor.ru:6432/demo2-2</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="u109-08@osr-u109-db2-1.unix.tensor.ru" group="WORK" uuid="39f8872f-224e-4779-87c8-fdf604b6a650">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://osr-u109-db2-1.unix.tensor.ru:5432/u109-08</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
