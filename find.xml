@@ -30,8 +30,8 @@
     <mask>*.pagex</mask>
     <mask>*.py</mask>
     <mask>*.uax</mask>
-    <mask>*.orx</mask>
     <mask>*.sql</mask>
     <mask>*.schedule</mask>
+    <mask>*.orx</mask>
   </component>
 </application>
