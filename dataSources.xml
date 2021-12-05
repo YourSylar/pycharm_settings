@@ -2,7 +2,6 @@
   <component name="dataSourceStorage" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="test-inside.tensor.ru@pre-test-inside-pg3.unix.tensor.ru" read-only="true" group="PRE-TEST" uuid="7682b801-0172-4851-b2e8-62288254cbcc">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <schema-control>AUTOMATIC</schema-control>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-inside-pg3.unix.tensor.ru:5432/test-inside.tensor.ru</jdbc-url>
@@ -18,7 +17,6 @@
     </data-source>
     <data-source source="LOCAL" name="ext1-2-4@test-osr-db14.unix.tensor.ru" group="TEST" uuid="c9d93591-2d39-4703-ba91-37f5c402a2d6">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db14.unix.tensor.ru:5432/ext1-2-4</jdbc-url>
     </data-source>
@@ -30,64 +28,49 @@
     </data-source>
     <data-source source="LOCAL" name="ext5@test-osr-db21.unix.tensor.ru" read-only="true" group="TEST" uuid="8377a752-0155-484b-a3c8-0d687bc05582">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db21.unix.tensor.ru:6432/ext5</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="test-inside.tensor.ru@test-inside-pg.unix.tensor.ru" group="TEST" uuid="d659dbf7-f5f1-4b90-9788-ab20ee1c021f">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-inside-pg.unix.tensor.ru:6432/test-inside.tensor.ru</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="ext@fix-osr-db4.unix.tensor.ru" read-only="true" group="FIX" uuid="290b070e-668c-4f33-9464-30952bf29750">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <schema-control>AUTOMATIC</schema-control>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-osr-db4.unix.tensor.ru:5432/ext</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="inside@fix-inside-db1.unix.tensor.ru" group="FIX" uuid="a957874a-e25d-4829-99b6-ccbdef0669d8">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-inside-db1.unix.tensor.ru:6432/inside</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="inside@test-inside-db.unix.tensor.ru" group="TEST" uuid="abc7283c-e1c2-4831-bf6a-44a3ba1b73e3">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-inside-db.unix.tensor.ru:6432/inside</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="postgres@test-services-db7.unix.tensor.ru" group="TEST" uuid="e0d8ce54-2309-4d36-ac33-3986c4e4554b">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-services-db7.unix.tensor.ru:6432/postgres</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="online-ext2@pre-test-osr-db.unix.tensor.ru" group="PRE-TEST" uuid="c69d7346-441c-4cef-ae36-d00e83c83720">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-osr-db.unix.tensor.ru:5432/online-ext2</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="SERVICE_USER ext_28.10.16@pre-test-osr-db.unix.tensor.ru [2]" group="SERVICE_USER" uuid="763afd00-af13-4ed8-a1d1-31ec3f5840bd">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-osr-db.unix.tensor.ru:5432/ext_28.10.16</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="SERVICE_USER ext1-2-3@test-ext1-db1.unix.tensor.ru" group="SERVICE_USER" uuid="d4d96976-db8a-4a95-a9f1-36212ce2fc23">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:5432/ext1-2-3</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="u164-11@osr-u164-db2-1.unix.tensor.ru" group="WORK" uuid="882c8eba-87bb-4e68-ae3e-0507a3a3e537">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u164-db2-1.unix.tensor.ru:5432/u164-11</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="inside@localhost" uuid="6bd1035a-7c76-4fa4-9060-00f6a5a9afd3">
       <driver-ref>postgresql</driver-ref>
@@ -95,360 +78,178 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/inside</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="ext1-2-4@test-osr-db14.unix.tensor.ru [2]" group="TEST" uuid="c300a7d1-24e8-4593-9ced-44a496633407">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://test-osr-db14.unix.tensor.ru:5432/ext1-2-4</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="ext1-2-3@test-ext1-db1.unix.tensor.ru" group="TEST" uuid="7cbf67f6-763b-4b6a-8b11-021ba912a646">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:5432/ext1-2-3</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="inside@fix-autotest-inside-db.unix.tensor.ru" group="FIX" uuid="27286b0d-5fac-425f-af05-e29e73a01308">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-autotest-inside-db.unix.tensor.ru:5432/inside</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="ext1-2-11@test-osr-db24.unix.tensor.ru" group="TEST" uuid="1ac5d572-0610-41f2-8027-1f5dfd6bb52d">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db24.unix.tensor.ru:5432/ext1-2-11</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="ext@fix-osr-ext1-db2.unix.tensor.ru" read-only="true" group="FIX" uuid="cb09cccc-7862-48d2-9713-b2542a202a5d">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-osr-ext1-db2.unix.tensor.ru:6432/ext</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="pattern@pre-test-demo-db.unix.tensor.ru" group="PRE-TEST" uuid="83500a21-7066-454f-9ec3-a6546a615872">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-demo-db.unix.tensor.ru:5432/pattern</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="SERVICE_USER ext1-2-8@test-osr-db23.unix.tensor.ru [2]" group="SERVICE_USER" uuid="994af983-f60a-4da1-9871-9d3bef39e3b0">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db38.unix.tensor.ru:5432/ext1-2-8</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="ext1-2-1@test-ext1-db1.unix.tensor.ru" group="TEST" uuid="c0d82f36-8e4b-428a-80c6-5ccf4afaa171">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:5432/ext1-2-1</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="planned-events@fix-planned-events-service-db1.unix.tensor.ru" group="FIX" uuid="1419f848-ab88-4bdc-a96b-9c96c6b5c687">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-planned-events-service-db1.unix.tensor.ru:5432/planned-events</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="u139-00@osr-u139-db1-1.unix.tensor.ru" group="WORK" uuid="9ad0a790-ebe7-472e-9370-aec11c3e3965">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u139-db1-1.unix.tensor.ru:5432/u139-00</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="ext1-2-4@test-osr-db14.unix.tensor.ru [3]" group="TEST" uuid="1e63a186-1e30-4930-a2fa-90bfff5133a1">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://test-osr-db14.unix.tensor.ru:5432/ext1-2-4</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u037-09@osr-u037-db1-1.unix.tensor.ru" group="WORK" uuid="a14354e1-733a-4a0c-9847-40ee41494a05">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u037-db1-1.unix.tensor.ru:5432/u037-09</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u215-05@osr-u215-db1-1.unix.tensor.ru" group="WORK" uuid="de3138ba-3aba-4804-be9f-78138658e8a4">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u215-db1-1.unix.tensor.ru:5432/u215-05</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u184-11@osr-u184-db2-1.unix.tensor.ru" group="WORK" uuid="94a14b61-f37a-47c4-8dba-a063aea8cdd8">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u184-db2-1.unix.tensor.ru:5432/u184-11</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="ext1-2-7@test-osr-db23.unix.tensor.ru" group="TEST" uuid="4d9e726d-a4e2-49bf-9281-f35eae7e0372">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:6432/ext1-2-7</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext1-2-1@test-ext1-db1.unix.tensor.ru [2]" group="TEST" uuid="938b4c2d-db4d-4068-9f17-8c1fc0afdff6">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:5432/ext1-2-1</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext1-2-8@test-osr-db23.unix.tensor.ru" group="TEST" uuid="67d416cf-0419-4944-9658-a15dd7374abb">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:5432/ext1-2-8</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="u080-19@osr-u080-db2-1.unix.tensor.ru" group="WORK" uuid="5ab67385-d205-422e-a5e6-aa35b87f7ddc">
-      <driver-ref>postgresql</driver-ref>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u080-db2-1.unix.tensor.ru:5432/u080-19</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="ext1-2-11@test-osr-db24.unix.tensor.ru [2]" group="TEST" uuid="aa8c4211-8154-4804-bd2f-a5cb38e437a1">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db24.unix.tensor.ru:5432/ext1-2-11</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="test-inside.tensor.ru@pre-test-inside-pg3.unix.tensor.ru [2]" group="PRE-TEST" uuid="81b25c45-af8f-47eb-b481-3433a3318c70">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-inside-pg3.unix.tensor.ru:6432/test-inside.tensor.ru</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext1-2-6@test-osr-db23.unix.tensor.ru" group="TEST" uuid="c0fe5772-d47b-4ac8-8d9c-7191b19bc7c4">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:6432/ext1-2-6</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext7@test-osr-db25.unix.tensor.ru" group="TEST" uuid="c554e8b3-56f9-4aea-b14e-d2b9d78a888d">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db25.unix.tensor.ru:6432/ext7</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext-registration-2@fix-extreg-db2.unix.tensor.ru" group="FIX" uuid="170f81d4-1578-4c7d-93ce-a695cbc0b09e">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-extreg-db2.unix.tensor.ru:6432/ext-registration-2</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="u083-02@osr-u083-db1-1.unix.tensor.ru" group="WORK" uuid="19f63cf3-8285-4827-8a11-be4d446c66af">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u083-db1-1.unix.tensor.ru:5432/u083-02</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u076-04@osr-u076-db1-1.unix.tensor.ru" group="WORK" uuid="1b4d9f62-47f8-4bdf-9c24-b33270b1f844">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u076-db1-1.unix.tensor.ru:5432/u076-04</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u128-11@osr-u128-db2-1.unix.tensor.ru" group="WORK" uuid="18bd4d23-dc09-405a-976a-15026126ed84">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u128-db2-1.unix.tensor.ru:5432/u128-11</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="partn-01@osr-partn-db1-1.unix.tensor.ru" group="WORK" uuid="cdfabb65-507c-4ed8-a11f-35f1a94e84f9">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-partn-db1-1.unix.tensor.ru:5432/partn-01</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="ext-autotest-2@fix-osr-ext-autotest-db2.unix.tensor.ru" group="FIX" uuid="3e24bb34-23d4-46be-b34c-4ae787a087de">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-osr-ext-autotest-db2.unix.tensor.ru:6432/ext-autotest-2</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="online-ext-2@fix-osr-ext2-db1.unix.tensor.ru" group="FIX" uuid="ec9d4bd0-be2a-4f3b-b705-bd52d2f03a5a">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-osr-ext2-db1.unix.tensor.ru:6432/online-ext-2</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext1-2-1@test-ext1-db1.unix.tensor.ru [3]" group="TEST" uuid="5164b107-5d06-4718-ae12-7f38e26454ea">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:6432/ext1-2-1</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext1-2-8@test-osr-db23.unix.tensor.ru [2]" group="TEST" uuid="3d0a663b-de58-46e5-a561-1426618c8473">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:5432/ext1-2-8</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="u213-02@osr-u213-db1-1.unix.tensor.ru" group="WORK" uuid="3f0dde25-a154-404e-9330-f983a643666a">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u213-db1-1.unix.tensor.ru:5432/u213-02</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="ext1-ft-1@test-ext1-db1.unix.tensor.ru" group="TEST" uuid="446c97e6-bb83-478a-9885-c08b64e036f6">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:5432/ext1-ft-1</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext1-2-8@test-osr-db23.unix.tensor.ru [3]" group="SERVICE_USER" uuid="5d0f6e82-37bd-456e-9534-6df3c1ffb213">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db23.unix.tensor.ru:5432/ext1-2-8</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="accounting-schemes@pre-test-services-db.unix.tensor.ru" group="PRE-TEST" uuid="3c6f8a38-68df-45cc-9209-e73d3cef2dcb">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-services-db.unix.tensor.ru:6432/accounting-schemes</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="u109-13@osr-u109-db1-1.unix.tensor.ru" group="WORK" uuid="886e397a-bdfb-4b8a-8c58-8531214d2305">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u109-db1-1.unix.tensor.ru:5432/u109-13</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u091-05@osr-u091-db1-1.unix.tensor.ru" group="WORK" uuid="d2dd76d7-5007-445a-bdf0-b703a12c96bb">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u091-db1-1.unix.tensor.ru:5432/u091-05</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="autotest-ext@test-osr-db35.unix.tensor.ru" group="TEST" uuid="d3b82830-728b-4865-9efa-84dc8043ce59">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db35.unix.tensor.ru:6432/autotest-ext</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="u040-08@osr-u040-db1-1.unix.tensor.ru" group="WORK" uuid="1febd9a9-23dc-4619-875a-6a2c779e5d1a">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u040-db1-1.unix.tensor.ru:5432/u040-08</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u139-06@osr-u139-db1-1.unix.tensor.ru" group="WORK" uuid="502853cd-be3b-4602-84f5-9b624826615b">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u139-db1-1.unix.tensor.ru:5432/u139-06</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="demo10@pre-test-demo-db.unix.tensor.ru" group="PRE-TEST" uuid="5158dfe6-1c7e-4b00-b905-e87083e9aad9">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-demo-db.unix.tensor.ru:6432/demo10</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="inside@fix-autotest-inside-db.unix.tensor.ru [2]" group="FIX" uuid="8b733c9a-bc09-4a65-a794-d7f4472d54f8">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-autotest-inside-db.unix.tensor.ru:6432/inside</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="buh-cfg@pre-test-services-db8.unix.tensor.ru" group="PRE-TEST" uuid="10a0efc5-ac6a-4260-b74c-a61ac95fd26e">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-services-db8.unix.tensor.ru:6432/buh-cfg</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="ext8@test-osr-db37.unix.tensor.ru" group="TEST" uuid="111b300a-57e2-42d2-a90b-336a29b32113">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-osr-db37.unix.tensor.ru:6432/ext8</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="buh-cfg@test-services-db7.unix.tensor.ru" group="TEST" uuid="123d3a1c-f06c-4760-85c6-8e71a4a9791b">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://test-services-db7.unix.tensor.ru:6432/buh-cfg</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="u170-09@osr-u170-db1-1.unix.tensor.ru" group="WORK" uuid="8a9d8e40-2d8c-4a6e-a772-d7df2ea7bb2d">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u170-db1-1.unix.tensor.ru:5432/u170-09</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="ext-registration-2@fix-extreg-db2.unix.tensor.ru Старая" group="FIX" uuid="82e21226-56f0-4871-842c-d10cc275813b">
       <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://fix-extreg-db2.unix.tensor.ru:6432/ext-registration-2</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u063-01@osr-u063-db2-1.unix.tensor.ru" group="WORK" uuid="7066cff6-cc45-4f7f-b443-31d1bbcfd143">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u063-db2-1.unix.tensor.ru:5432/u063-01</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u173-04@osr-u173-db1-1.unix.tensor.ru" group="WORK" uuid="977d187d-2d74-4396-bb34-ddee92fa1722">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u173-db1-1.unix.tensor.ru:5432/u173-04</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u122-05@osr-u122-db1-1.unix.tensor.ru" group="WORK" uuid="753c2068-d960-4cc0-b658-e6851c4f0458">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u122-db1-1.unix.tensor.ru:5432/u122-05</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="demo2-2@fix-osr-demo-db2.unix.tensor.ru" uuid="0941a4e4-8be4-4ada-9885-5be70acb2919">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://fix-osr-demo-db2.unix.tensor.ru:6432/demo2-2</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="u109-08@osr-u109-db2-1.unix.tensor.ru" group="WORK" uuid="39f8872f-224e-4779-87c8-fdf604b6a650">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://osr-u109-db2-1.unix.tensor.ru:5432/u109-08</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
