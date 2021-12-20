@@ -5,6 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.dicx" />
     <mask>Card.js</mask>
     <mask>employeesInfo.py</mask>
     <mask>const.py</mask>
@@ -28,12 +29,12 @@
     <mask>*.cnv</mask>
     <mask>*.ts</mask>
     <mask>*.navx</mask>
-    <mask>*.dicx</mask>
     <mask>*.pagex</mask>
     <mask>*.py</mask>
     <mask>*.uax</mask>
     <mask>*.schedule</mask>
     <mask>*.orx</mask>
     <mask>*.sql</mask>
+    <mask>*.dicx</mask>
   </component>
 </application>
