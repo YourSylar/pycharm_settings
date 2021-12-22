@@ -252,5 +252,18 @@
       <jdbc-url>jdbc:postgresql://fix-extreg-db2.unix.tensor.ru:6432/ext-registration-2</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="autotest-ext3@test-osr-db39.unix.tensor.ru" group="TEST" uuid="25ed484f-bed3-4bdd-9134-7afed9b6beef">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://test-osr-db39.unix.tensor.ru:6432/autotest-ext3</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="fix-inside.tensor.ru@fix-inside-db.unix.tensor.ru" uuid="8648c4e4-4480-42e7-95a4-5665ccdec87f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://fix-inside-db.unix.tensor.ru:6432/fix-inside.tensor.ru</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
