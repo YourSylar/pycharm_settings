@@ -5,7 +5,6 @@
       <mapping pattern="ZplBL" type="AUTO_DETECTED" />
       <mapping ext="plantuml" type="PlantUML file" />
       <mapping ext="pgsql" type="SQL" />
-      <mapping ext="wml" type="Vue.js" />
       <mapping ext="orx" type="XML" />
       <mapping ext="cnv" type="XML" />
       <mapping ext="tmpl" type="XML" />
@@ -28,6 +27,7 @@
       <mapping ext="tps" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping ext="wml" type="Vue.js" />
     </extensionMap>
   </component>
 </application>
