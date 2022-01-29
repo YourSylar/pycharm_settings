@@ -1,8 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>Card.js</mask>
     <mask>employeesInfo.py</mask>
     <mask>const.py</mask>
@@ -27,11 +30,11 @@
     <mask>*.ts</mask>
     <mask>*.navx</mask>
     <mask>*.pagex</mask>
-    <mask>*.py</mask>
     <mask>*.uax</mask>
     <mask>*.schedule</mask>
     <mask>*.orx</mask>
     <mask>*.sql</mask>
     <mask>*.dicx</mask>
+    <mask>*.py</mask>
   </component>
 </application>
