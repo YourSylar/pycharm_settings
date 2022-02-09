@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>Card.js</mask>
     <mask>employeesInfo.py</mask>
     <mask>const.py</mask>
@@ -24,7 +25,6 @@
     <mask>diagram*</mask>
     <mask>*.less</mask>
     <mask>*.cnv</mask>
-    <mask>*.ts</mask>
     <mask>*.navx</mask>
     <mask>*.pagex</mask>
     <mask>*.uax</mask>
@@ -33,5 +33,6 @@
     <mask>*.dicx</mask>
     <mask>*.py</mask>
     <mask>*.sql</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
