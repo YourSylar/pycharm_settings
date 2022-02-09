@@ -67,11 +67,6 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://pre-test-osr-db.unix.tensor.ru:5432/ext_28.10.16</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="SERVICE_USER ext1-2-3@test-ext1-db1.unix.tensor.ru" group="SERVICE_USER" uuid="d4d96976-db8a-4a95-a9f1-36212ce2fc23">
-      <driver-ref>postgresql</driver-ref>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://test-ext1-db1.unix.tensor.ru:5432/ext1-2-3</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="inside@localhost" uuid="6bd1035a-7c76-4fa4-9060-00f6a5a9afd3">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
