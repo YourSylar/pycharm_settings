@@ -29,9 +29,9 @@
     <mask>*.schedule</mask>
     <mask>*.orx</mask>
     <mask>*.dicx</mask>
-    <mask>*.py</mask>
     <mask>*.ts</mask>
     <mask>*.wml</mask>
     <mask>*.sql</mask>
+    <mask>*.py</mask>
   </component>
 </application>
