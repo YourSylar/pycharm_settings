@@ -27,11 +27,11 @@
     <mask>*.pagex</mask>
     <mask>*.uax</mask>
     <mask>*.schedule</mask>
-    <mask>*.orx</mask>
     <mask>*.dicx</mask>
     <mask>*.ts</mask>
     <mask>*.wml</mask>
     <mask>*.sql</mask>
     <mask>*.py</mask>
+    <mask>*.orx</mask>
   </component>
 </application>
