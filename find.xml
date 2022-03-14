@@ -31,7 +31,7 @@
     <mask>*.ts</mask>
     <mask>*.wml</mask>
     <mask>*.sql</mask>
-    <mask>*.py</mask>
     <mask>*.orx</mask>
+    <mask>*.py</mask>
   </component>
 </application>
