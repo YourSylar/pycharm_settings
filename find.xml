@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.orx" />
     <mask>Card.js</mask>
     <mask>employeesInfo.py</mask>
     <mask>const.py</mask>
@@ -26,7 +25,6 @@
     <mask>*.cnv</mask>
     <mask>*.navx</mask>
     <mask>*.pagex</mask>
-    <mask>*.uax</mask>
     <mask>*.schedule</mask>
     <mask>*.dicx</mask>
     <mask>*.ts</mask>
@@ -34,5 +32,6 @@
     <mask>*.sql</mask>
     <mask>*.py</mask>
     <mask>*.orx</mask>
+    <mask>*.uax</mask>
   </component>
 </application>
