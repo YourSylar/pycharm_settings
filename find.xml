@@ -30,8 +30,8 @@
     <mask>*.ts</mask>
     <mask>*.wml</mask>
     <mask>*.py</mask>
-    <mask>*.orx</mask>
     <mask>*.uax</mask>
     <mask>*.sql</mask>
+    <mask>*.orx</mask>
   </component>
 </application>
