@@ -272,5 +272,11 @@
       <jdbc-url>jdbc:postgresql://test-osr-db45.unix.tensor.ru:6432/ext9</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="online-autotest-old_3@fix-autotest-old-db3.unix.tensor.ru" group="FIX" uuid="4b7b7adc-59d4-4d02-bab1-f27a3555113d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://fix-autotest-old-db3.unix.tensor.ru:6432/online-autotest-old_3</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
