@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.sql" />
     <mask>Card.js</mask>
     <mask>employeesInfo.py</mask>
     <mask>const.py</mask>
@@ -31,7 +32,7 @@
     <mask>*.wml</mask>
     <mask>*.py</mask>
     <mask>*.uax</mask>
-    <mask>*.sql</mask>
     <mask>*.orx</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
