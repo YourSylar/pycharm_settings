@@ -19,7 +19,6 @@
     <mask>*.css</mask>
     <mask>empListFilter.py</mask>
     <mask>departs_sums.sql</mask>
-    <mask>*.js</mask>
     <mask>Main.tmpl</mask>
     <mask>holiday_list.sql</mask>
     <mask>diagram*</mask>
@@ -35,5 +34,6 @@
     <mask>*.uax</mask>
     <mask>*.orx</mask>
     <mask>*.sql</mask>
+    <mask>*.js</mask>
   </component>
 </application>
