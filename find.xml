@@ -27,11 +27,11 @@
     <mask>*.schedule</mask>
     <mask>*.dicx</mask>
     <mask>*.ts</mask>
-    <mask>*.wml</mask>
     <mask>*.py</mask>
     <mask>*.uax</mask>
     <mask>*.orx</mask>
     <mask>*.sql</mask>
     <mask>*.js</mask>
+    <mask>*.wml</mask>
   </component>
 </application>
